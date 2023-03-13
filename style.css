@@ -1,0 +1,40 @@
+@font-face {
+  font-family: Bachelor;
+  src: url(/font/1Ptgg87LROyAm3Kz-C8.woff2);
+}
+@font-face {
+  font-family: Scott;
+  src: url(/font/pxiEyp8kv8JHgFVrJJfecg.woff2);
+}
+body {
+  background-color: #e0e0e0;
+}
+body::before {
+  display: block;
+  content: "";
+  height: 100px;
+}
+.index-hero-text {
+
+  font-family: "Bachelor";
+  font-size: 7vw;
+  letter-spacing: .01em;
+}
+.paper-hero-text{
+    font-family: "Bachelor";
+  font-size: 5vw;
+  letter-spacing: .01em;
+}
+.nav-text {
+  font-family: "Scott";
+}
+.scrolled {
+  background-color: #ffffff62 !important;
+  transition: background-color 200ms linear;
+}
+
+@media all and (max-width: 480px) {
+  .index-hero-text {
+    font-size: 5rem !important;
+  }
+}
